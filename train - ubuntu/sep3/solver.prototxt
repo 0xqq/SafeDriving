@@ -1,0 +1,36 @@
+net: "./train_val.prototxt"
+
+#train_size = 50439
+#train_batch_size = 100
+
+#test_size = 15501
+#test_batch_size = 50
+
+# test_size / test_batch_size
+test_iter: 300
+
+# train_size / train_batch_size
+test_interval: 500
+
+base_lr: 0.001
+
+lr_policy: "inv"
+
+#lr_policy: "step"
+#stepsize: 6000
+
+gamma: 0.1
+
+display: 50
+
+max_iter: 5000
+
+momentum: 0.9
+
+weight_decay: 0.0005
+
+snapshot: 5000
+
+snapshot_prefix: "./sep3"
+
+solver_mode: GPU
