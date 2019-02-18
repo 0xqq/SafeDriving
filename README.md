@@ -1,7 +1,7 @@
 # SafeDriving
 使用Caffe进行模型训练的可内置于车内的图像识别驾驶人驾驶行为检测与警报程序。
 
-照片来源：kaggle~~某次~~比赛的训练集。
+照片来源：kaggle https://www.kaggle.com/c/state-farm-distracted-driver-detection 
 
 程序分为两部分：
 * caffe模型训练 - train - ubuntu
